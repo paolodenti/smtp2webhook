@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "app.smtp.port",
+      "type": "java.lang.Integer",
+      "description": "SMTP Port."
+    },
+    {
+      "name": "app.smtp.details",
+      "type": "java.lang.Boolean",
+      "description": "Include fields."
+    },
+    {
+      "name": "app.webhook.url",
+      "type": "java.net.URI",
+      "description": "Webhook URL."
+    },
+    {
+      "name": "app.webhook.content-type",
+      "type": "java.lang.String",
+      "description": "Webhook Content type."
+    },
+    {
+      "name": "app.webhook.method",
+      "type": "java.lang.String",
+      "description": "Webhook Method."
+    }
+  ]
+}

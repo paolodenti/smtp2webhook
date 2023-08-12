@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: smtp2webhook
+  profiles:
+    active:
+      - local
+
+app:
+  smtp:
+    port: ${SMTP_PORT:2525}
+    details: ${SMTP_DETAILS:true}
+  webhook:
+    url: ${WEBHOOK_URL}
+    content-type: ${WEBHOOK_CONTENT_TYPE:application/json}
+    method: ${WEBHOOK_METHOD:POST}
