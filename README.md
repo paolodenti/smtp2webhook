@@ -1,5 +1,8 @@
 # SMTP To webhook
 
+[![Integration Tests](https://github.com/paolodenti/smtp2webhook/actions/workflows/tests.yaml/badge.svg)](https://github.com/paolodenti/smtp2webhook/actions/workflows/tests.yaml)
+[![Integration Tests](https://github.com/paolodenti/smtp2webhook/actions/workflows/tests.yaml/badge.svg)](https://github.com/paolodenti/smtp2webhook/actions/workflows/tests.yaml)
+
 Simple SMTP to to webhook, for internal use.
 
 It sends the content of an incoming email to a webhook.
