@@ -10,11 +10,11 @@
     </parent>
     <groupId>com.github.paolodenti</groupId>
     <artifactId>smtp2webhook</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>smtp2webhook</name>
     <description>SMTP To Webhook</description>
     <properties>
-        <subethasmtp.version>5.2.4</subethasmtp.version>
+        <subethasmtp.version>6.0.6</subethasmtp.version>
         <commons-email.version>1.5</commons-email.version>
         <httpclient.version>4.5.14</httpclient.version>
 
