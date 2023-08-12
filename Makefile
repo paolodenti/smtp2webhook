@@ -43,4 +43,4 @@ style:
 upgrade:
 	@VERSION="$$(./mvnw -q -Dexec.executable=echo -Dexec.args='$${project.version}' --non-recursive exec:exec -P-testtools)" && \
 NEXTVERSION=$$(echo $${VERSION} | awk -F. -v OFS=. '{$$NF += 1 ; print}') && \
-echo "$${NEXTVERSION}" | ./mvnw versions:set -DremoveSnapshot -DgenerateBackupPoms=false
+echo "$${NEXTVERSION}" | ./mvnw versions:set -DgenerateBackupPoms=false
