@@ -22,7 +22,7 @@
 
         <!-- dev dependencies -->
         <checkstyle.version>10.10.0</checkstyle.version>
-        <maven.checkstyle-plugin.version>3.2.2</maven.checkstyle-plugin.version>
+        <maven.checkstyle-plugin.version>3.3.0</maven.checkstyle-plugin.version>
 
         <java.version>17</java.version>
     </properties>
